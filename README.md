@@ -30,4 +30,5 @@ This is my RNA-seq  analysis update library
     5) STAR
     6) featureCounts
 #### R package
-crayon,praise,progress,DESeq2,dbplyr,FactoMineR,plyr,stringr,Hmisc,biomaRt,ggridges,latex2exp,ggpubr,ggthemes,ggrepel,rtracklayer,ggridges,RColorBrewer,pheatmap,dplyr.plotly,htmlwidgetsshiny,reshape2,clusterProfiler,topGO,dbplyr,pathview,DOSE,org.Mm.eg.db,tidyr,dplyr,forcats,ggplot2,ggpubr,enrichplot,cowplot,stringr,RColorBrewer
+```crayon,praise,progress,DESeq2,dbplyr,FactoMineR,plyr,stringr,Hmisc,biomaRt,ggridges,latex2exp,ggpubr,ggthemes,ggrepel,rtracklayer,ggridges,RColorBrewer,pheatmap,dplyr.plotly,htmlwidgetsshiny,reshape2,clusterProfiler,topGO,dbplyr,pathview,DOSE,org.Mm.eg.db,tidyr,dplyr,forcats,ggplot2,ggpubr,enrichplot,cowplot,stringr,RColorBrewer```
+
