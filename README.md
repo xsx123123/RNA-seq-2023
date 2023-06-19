@@ -3,7 +3,7 @@ This is my RNA-seq  analysis update library
 
 ``` author:zhang jian ```
 ``` date:2023.6.19 ```
-``` version:1.0v ```
+``` version:1.1v ```
 ``` e-mail:zhangjian199567@outlook.com ```
 
 ### this is my RNA-seq analysis protocol (SHELL + R)
@@ -89,6 +89,23 @@ crayon,praise,progress,DESeq2,dbplyr,FactoMineR,plyr,stringr,Hmisc,biomaRt,ggrid
 | WT-1_L1_Q0060W0004 | WT | PE | 1 | Lane1 |
 | WT-2_L1_Q0060W0156 | WT | PE | 1 | Lane1 |
 | WT-3_L1_Q0060W0159 | WT | PE | 1 | Lane1 |
+
+```
+# NOTE: featurecount result file = sample_infor.csv group_name
+MTco3-1_L1_Q0061W0004_exon.read.count.tsv  MTco3-3_L1_Q0061W0159_exon.read.count.tsv  WT-2_L1_Q0060W0156_exon.read.count.tsv
+MTco3-2_L1_Q0061W0156_exon.read.count.tsv  WT-1_L1_Q0060W0004_exon.read.count.tsv     WT-3_L1_Q0060W0159_exon.read.count.tsv
+```
+
+***DEG SCRIPTS***
+```
+Rscript 1.RNA-seq_deg_rat.r  <root-dir> <festurecount-result-dir> <sample-infor.csv path>
+```
+
+**enrichment scripts**
+```
+# this root-dir must include DEG RESULT folder
+Rscript 2.RNA-seq_KEGG_GO_GSEA_rat.r <root-dir>
+```
 
 
 
