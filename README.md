@@ -80,13 +80,15 @@ crayon,praise,progress,DESeq2,dbplyr,FactoMineR,plyr,stringr,Hmisc,biomaRt,ggrid
 # 7.sample_infor FOLDER INCLUDE SAMPLE INFOR CSV FILE
 ```
 7.sample_infor sample_infor.csv condition example
-|group_name|condition|type|patch|lane|
-|MTco3-1_L1_Q0061W0004|MTco3|PE|1|Lane1|
-|MTco3-2_L1_Q0061W0156|MTco3|PE|1|Lane1|
-|MTco3-3_L1_Q0061W0159|MTco3|PE|1|Lane1|
-|WT-1_L1_Q0060W0004|WT|PE|1|Lane1|
-|WT-2_L1_Q0060W0156|WT|PE|1|Lane1|
-|WT-3_L1_Q0060W0159|WT|PE|1|Lane1|
+
+| group_name | condition | type | patch | lane |
+| --- | --- | --- | --- | --- |
+| MTco3-1_L1_Q0061W0004 | MTco3 | PE | 1 | Lane1 |
+| MTco3-2_L1_Q0061W0156 | MTco3 | PE | 1 | Lane1 |
+| MTco3-3_L1_Q0061W0159 | MTco3 | PE | 1 | Lane1 |
+| WT-1_L1_Q0060W0004 | WT | PE | 1 | Lane1 |
+| WT-2_L1_Q0060W0156 | WT | PE | 1 | Lane1 |
+| WT-3_L1_Q0060W0159 | WT | PE | 1 | Lane1 |
 
 
 
