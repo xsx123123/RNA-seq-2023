@@ -37,6 +37,7 @@ crayon,praise,progress,DESeq2,dbplyr,FactoMineR,plyr,stringr,Hmisc,biomaRt,ggrid
 ```
 
 ### RNA-SEQ UPSTEAM ANALYSIS
+**UPSTEAM ANALYSIS SCRIPTS**
 ```
 # 1. downloda data form paper or seq company 
   you can use RNA-SEQ-UPSTEAM folder STEP1.2.Dowmload_data_form_EMBI-EBI.sh or STEP1.1.Dowmload_data_huawei_OBS.sh scripts 
@@ -66,4 +67,26 @@ crayon,praise,progress,DESeq2,dbplyr,FactoMineR,plyr,stringr,Hmisc,biomaRt,ggrid
   # NOTE: YOU CAN USE 3 level to count RNA-seq featurecount
 
 ```
+**UPSTEAM ANALYSIS SCRIPTS**
+```
+# NOTE YOU CAN CREATE SCRIPTS IN ROOT DIR
+# AFTER RUN ABOVE SCRIPTS YOU CAN GET DOWN RESLUT FOLDER
+1.raw_data       3.rm_adapter  6.mapping_result  7.count_exon_dutp  
+2.fastqc_report  4.rm_15bp     7.count_cds_dutp  7.count_gene_dutp  scripts
+```
+**DOWNSTEAM ANALYSIS SCRIPTS**
+```
+# WHERE YOU FINISH UPSTEAM ANALYSIS, YOU NEED CREATE 7.sample_infor FOLDER
+# 7.sample_infor FOLDER INCLUDE SAMPLE INFOR CSV FILE
+```
+7.sample_infor sample_infor.csv condition example
+|group_name|condition|type|patch|lane|
+|MTco3-1_L1_Q0061W0004|MTco3|PE|1|Lane1|
+|MTco3-2_L1_Q0061W0156|MTco3|PE|1|Lane1|
+|MTco3-3_L1_Q0061W0159|MTco3|PE|1|Lane1|
+|WT-1_L1_Q0060W0004|WT|PE|1|Lane1|
+|WT-2_L1_Q0060W0156|WT|PE|1|Lane1|
+|WT-3_L1_Q0060W0159|WT|PE|1|Lane1|
+
+
 
