@@ -22,12 +22,17 @@ This is my RNA-seq  analysis update library
     3) other analysis scripts
     
 ### need run env
-  1.shell env softaqre:
+#### shell env softaqre:
     1) fastqc
     2) multiqc
     3) cutadapt
     4) hisat2
     5) STAR
     6) featureCounts
-  2.R package
+
+#### R package
+```
 crayon,praise,progress,DESeq2,dbplyr,FactoMineR,plyr,stringr,Hmisc,biomaRt,ggridges,latex2exp,ggpubr,ggthemes,ggrepel,rtracklayer,ggridges,RColorBrewer,pheatmap,dplyr.plotly,htmlwidgetsshiny,reshape2,clusterProfiler,topGO,dbplyr,pathview,DOSE,org.Mm.eg.db,tidyr,dplyr,forcats,ggplot2,ggpubr,enrichplot,cowplot,stringr,RColorBrewer
+
+```
+
